@@ -1,0 +1,3 @@
+// Client sub-project build.gradle
+// This file is required for Gradle to recognize this as a sub-project
+// The actual configuration is inherited from the root project's subprojects block

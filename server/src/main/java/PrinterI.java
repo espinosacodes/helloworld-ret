@@ -2,10 +2,11 @@ import Demo.Response;
 import java.io.*;
 import java.net.*;
 import java.util.*;
+import com.zeroc.Ice.Current;
 
 public class PrinterI implements Demo.Printer
 {
-    public Response printString(String s, com.zeroc.Ice.Current current)
+    public Response printString(String s, Current current)
     {
         long startTime = System.currentTimeMillis();
         String result = "";
