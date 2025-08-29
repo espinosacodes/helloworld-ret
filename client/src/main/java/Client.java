@@ -22,7 +22,7 @@ public class Client
             }
 
             // Get username and hostname
-            String username = System.getProperty("user.name");
+            String username = System.getProperty("user.name"); //whoami
             String hostname = "unknown";
             try {
                 hostname = java.net.InetAddress.getLocalHost().getHostName();
