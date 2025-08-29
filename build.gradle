@@ -33,7 +33,7 @@ subprojects {
     // Both Client and Server depend only on Ice JAR
     //
     dependencies {
-        implementation 'com.zeroc:ice:3.7.6'
+        implementation 'com.zeroc:ice:3.7.10'
     }
  
     //
@@ -43,7 +43,7 @@ subprojects {
         manifest {
             attributes(
                 "Main-Class": project.name.capitalize(),
-                "Class-Path": '/opt/Ice-3.7.6/lib/ice-3.7.6.jar'
+                "Class-Path": '/usr/share/java/ice-3.7.10.jar'
                 //"Class-Path": configurations.runtimeClasspath.resolve().collect { it.toURI() }.join(' ')
             )
         }
